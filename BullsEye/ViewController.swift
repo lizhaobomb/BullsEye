@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        customSlider()
         startNewGame()
         updateLabels()
     }
@@ -29,6 +30,24 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func customSlider() {
+        let thumbImageNormal = #imageLiteral(resourceName: "SliderThumb-Normal")
+        slider.setThumbImage(thumbImageNormal, for: .normal)
+        
+        let thumbImageHighlighted = #imageLiteral(resourceName: "SliderThumb-Highlighted")
+        slider.setThumbImage(thumbImageHighlighted, for: .highlighted)
+        
+        let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)
+        
+        let trackLeftImage = #imageLiteral(resourceName: "SliderTrackLeft")
+        let trackLeftResizeable = trackLeftImage.resizableImage(withCapInsets: insets)
+        slider.setMinimumTrackImage(trackLeftResizeable, for: .normal)
+        
+        let trackRightImage = #imageLiteral(resourceName: "SliderTrackRight")
+        let trackRightResizeable = trackRightImage.resizableImage(withCapInsets: insets)
+        slider.setMaximumTrackImage(trackRightResizeable, for: .normal)
     }
     
     @IBAction func showAlert() {
