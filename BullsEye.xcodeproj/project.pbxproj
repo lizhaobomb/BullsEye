@@ -11,7 +11,6 @@
 		D7ABB2121F32C6280053DD81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ABB2111F32C6280053DD81 /* ViewController.swift */; };
 		D7ABB2151F32C6280053DD81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ABB2131F32C6280053DD81 /* Main.storyboard */; };
 		D7ABB2171F32C6280053DD81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7ABB2161F32C6280053DD81 /* Assets.xcassets */; };
-		D7ABB21A1F32C6280053DD81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ABB2181F32C6280053DD81 /* LaunchScreen.storyboard */; };
 		D7E615401F345C1A00116ED5 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = D7E6153F1F345C1A00116ED5 /* BullsEye.html */; };
 		F1F8DF391F3356A200B3C4DD /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F8DF381F3356A200B3C4DD /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
@@ -22,7 +21,6 @@
 		D7ABB2111F32C6280053DD81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D7ABB2141F32C6280053DD81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7ABB2161F32C6280053DD81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D7ABB2191F32C6280053DD81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7ABB21B1F32C6280053DD81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7E6153F1F345C1A00116ED5 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../../../Downloads/The iOS Apprentice 1 - Getting Started/Resources/BullsEye.html"; sourceTree = "<group>"; };
 		F1F8DF381F3356A200B3C4DD /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 				D7ABB2111F32C6280053DD81 /* ViewController.swift */,
 				D7ABB2131F32C6280053DD81 /* Main.storyboard */,
 				D7ABB2161F32C6280053DD81 /* Assets.xcassets */,
-				D7ABB2181F32C6280053DD81 /* LaunchScreen.storyboard */,
 				D7ABB21B1F32C6280053DD81 /* Info.plist */,
 				F1F8DF381F3356A200B3C4DD /* AboutViewController.swift */,
 			);
@@ -130,7 +127,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7ABB21A1F32C6280053DD81 /* LaunchScreen.storyboard in Resources */,
 				D7E615401F345C1A00116ED5 /* BullsEye.html in Resources */,
 				D7ABB2171F32C6280053DD81 /* Assets.xcassets in Resources */,
 				D7ABB2151F32C6280053DD81 /* Main.storyboard in Resources */,
@@ -159,14 +155,6 @@
 				D7ABB2141F32C6280053DD81 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D7ABB2181F32C6280053DD81 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7ABB2191F32C6280053DD81 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
