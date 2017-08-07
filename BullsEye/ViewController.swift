@@ -87,6 +87,13 @@ class ViewController: UIViewController {
     @IBAction func starOver() {
         startNewGame()
         updateLabels()
+        
+//        let transition = CATransition()
+//        transition.type = kCATransitionFade
+//        transition.duration = 1;
+//        transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+//        view.layer.add(transition, forKey: nil)
+        
     }
     
     func startNewGame() {
@@ -100,6 +107,11 @@ class ViewController: UIViewController {
         currentValue = 50
         slider.value = Float(currentValue)
         round += 1
+        let transition = CATransition()
+        transition.type = kCATransitionFade
+        transition.duration = 1;
+        transition.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+        view.layer.add(transition, forKey: nil)
     }
 
     func updateLabels() {
